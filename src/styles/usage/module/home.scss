@@ -1,5 +1,6 @@
 @import "../../lib/element/yo-loading";
 .m-index{
+  font-family:"微软雅黑";
   @include flexbox();
   @include flex-direction(column);
   .l-container{
