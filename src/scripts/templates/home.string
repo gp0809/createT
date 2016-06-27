@@ -1,0 +1,209 @@
+<header>
+        <ul>
+          <li>
+            <img src="/createT/images/tlogo.png">
+          </li>
+          <li>创T</li>
+          <li action-type="tap.share">…</li>
+        </ul>
+</header>
+<div class="m-home" spa-widget="scroll" data-scroll-id="fixScroll">
+    <div class="wrapper">
+        <div class="index-ban">
+          <div class="swiper-container" id="bg-Swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="/createT/images/ban1.jpg"></div>
+              <div class="swiper-slide"><img src="/createT/images/ban2.jpg"></div>
+              <div class="swiper-slide"><img src="/createT/images/ban3.jpg"></div>
+              <div class="swiper-slide"><img src="/createT/images/ban4.jpg"></div>
+            </div>
+          </div>
+        </div>
+        <nav class="m-search-menu">
+          <ul>
+            <li action-type="tap.slide">
+              <i><img src="/createT/images/menu1.png"></i>
+              <b class="active">创意新品</b>
+            </li>
+            <li action-type="tap.slide">
+              <i><img src="/createT/images/menu2.png"></i>
+              <b>特惠促销</b>
+            </li>
+            <li action-type="tap.slide">
+              <i><img src="/createT/images/menu3.png"></i>
+              <b>热卖排行</b>
+            </li>
+            <li action-type="tap.slide">
+              <i><img src="/createT/images/menu4.png"></i>
+              <b>查找设计</b>
+            </li>
+          </ul>
+        </nav>
+        
+        <section>
+        <div class="swiper-container" id="home-Swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="jingxuan">
+                  <div class="jingxuan-top">
+                    <div class="line"></div>
+                    <h4>创意新品</h4>
+                  </div>
+                  <ul>
+                    <li ms-repeat-value="livelist" action-type="goto.detail" ms-attr-data-id="value.id">
+                      <div class="pic">
+                        <img ms-src="value.imgsrc">
+                      </div>
+                      <div class="info">
+                        <span class="m-price" ms-text="value.price">￥68</span>
+                        <span ms-text="value.name">速度</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="jingxuan">
+                  <div class="jingxuan-top">
+                    <div class="line"></div>
+                    <h4>特惠促销</h4>
+                  </div>
+                  <ul>
+                     <li ms-repeat-value="livelist">
+                      <div class="pic">
+                        <img ms-src="value.imgsrc">
+                      </div>
+                      <div class="info">
+                        <span class="m-price" ms-text="value.price">￥68</span>
+                        <span ms-text="value.name">速度</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="jingxuan">
+                  <div class="jingxuan-top">
+                      <div class="line"></div>
+                      <h4>热卖排行</h4>
+                  </div>
+                  <ul>
+                    <li ms-repeat-value="livelist">
+                      <div class="pic">
+                        <img ms-src="value.imgsrc">
+                      </div>
+                      <div class="info">
+                        <span class="m-price" ms-text="value.price"></span>
+                        <span ms-text="value.name"></span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="jingxuan">
+                  <div class="jingxuan-top">
+                    <div class="line"></div>
+                    <h4>查找设计</h4>
+                  </div>
+                  <ul>
+                    <li ms-repeat-value="livelist">
+                      <div class="pic">
+                        <img ms-src="value.imgsrc">
+                      </div>
+                      <div class="info">
+                        <span class="m-price" ms-text="value.price"></span>
+                        <span ms-text="value.name"></span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="spinner">
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+            </div>
+        </div>
+          <div class="chaoliu">
+            <div class="chaoliu-top">
+              <div class="line"></div>
+              <h4>潮流设计</h4>
+            </div>
+            <ul>
+              <li>
+                <div class="pic">
+                  <img src="/createT/images/c1.png">
+                </div>
+                <div class="info">
+                  <span>速度</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="/createT/images/c2.png">
+                </div>
+                <div class="info">
+                  <span>速度</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="/createT/images/c3.png">
+                </div>
+                <div class="info">
+                  <span>速度</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="/createT/images/c4.png">
+                </div>
+                <div class="info">
+                  <span>速度</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="/createT/images/c5.png">
+                </div>
+                <div class="info">
+                  <span>速度</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="/createT/images/c6.png">
+                </div>
+                <div class="info">
+                  <span>速度</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="/createT/images/c7.png">
+                </div>
+                <div class="info">
+                  <span>速度</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="m-items">
+            <div class="items-top">
+              <div class="m-left"></div>
+              <div class="items-font">分类列表</div>
+              <div class="m-rg"></div>
+            </div>
+            <div class="m-bg">
+              <div class="bg-pic" ms-repeat-value="homelist" action-type="tap.detail" ms-attr-data-id="value.ID">
+                <img ms-src="value.URL">
+                <div class="pic-font" ms-text="value.NAME"></div>
+              </div>           
+            </div>
+          </div>
+        </section>
+    </div>
+</div>
+
+  

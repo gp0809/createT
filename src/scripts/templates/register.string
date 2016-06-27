@@ -1,0 +1,43 @@
+<div class="m-register">
+	<div class="design-wrap">
+		<div class="login">
+			<div class="go-back yo-ico" action-type="exit">&#xe611;</div>
+			<div class="login-log">注册</div>
+			<div class="space" action-type="tap.share">…</div>
+		</div>
+		<div class="log-content">
+			<div class="acount">
+				<div class="ac-font">账号：</div>
+				<input class="ac-input" id="email" placeholder="请输入邮箱" type=text></input>
+			</div>
+			<div class="psw">
+				<div class="psw-font">密码：</div>
+				<input class="psw-input" id="psw" placeholder="" type="password"></input>
+			</div>
+			<div class="re-psw">
+				<div class="psw-font">确认密码：</div>
+				<input class="psw-input" id="repsw" placeholder="" type="password"></input>
+			</div>
+			<div class="test-code">
+				<div class="psw-font">验证码：</div>
+				<input class="psw-input" id="ts-code" placeholder="" type=text></input>
+				<div class="code-wrap">2132</div>
+			</div>
+
+			<div class="log-btm">
+				<div class="tips"></div>
+				<div class="register-wrap">
+					<div class="log-btn" id="register-btn">注册</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="suc-wrap">
+		<div class="suc-content">
+			<div class="suc-title">注册成功</div>
+			<div class="suc-in">恭喜您，注册成功，请返回登录</div>
+			<div class="suc-suc">确定</div>
+		</div>
+	</div>
+</div>

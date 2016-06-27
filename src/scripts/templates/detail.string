@@ -1,0 +1,40 @@
+<div class="m-detail">
+	<div class="detail-head">
+        <ul>
+          <li class="yo-ico" action-type="back">
+            &#xe611;
+          </li>
+          <li ms-visible="!isShowLoading">{{name}}</li>
+          <li ms-visible="isShowLoading">正在加载</li>
+          <li action-type="tap.share">…</li>
+        </ul>
+	</div>
+  <div class="m-slide" spa-widget="scroll">
+  	<section>
+  	    <div class="m-logo">
+          <div class="m-logo-pic">
+            <img ms-src="imgsrclogo">
+          </div> 
+          <div class="prd-price">￥{{price}}</div>
+        </div>
+        <div class="m-title">{{name}}</div>
+        <div class="prd-pic">
+          <img ms-src="imgsrc">
+        </div>
+        <div class="info-pic">
+          <img src="/createT/images/sp2.jpg">
+        </div>
+    </section>
+  </div>
+  <footer>
+    <div class="continue">继续设计</div>
+    <div class="addtocart">加入购物车</div>
+    <div class="cart-cont">
+      <span class="yo-ico">&#xe61f;</span>
+      <span class="cart-nu">(0)</span>
+    </div>
+  </footer>
+  <div class="yo-loading" ms-visible="isShowLoading">
+      <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+  </div>
+</div>

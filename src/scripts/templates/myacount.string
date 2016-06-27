@@ -1,0 +1,106 @@
+<header>
+    <ul>
+      <li>
+         <img src="/createT/images/tlogo.png">
+      </li>
+      <li>创T</li>
+      <li>…</li>
+    </ul>
+</header>
+<div class="acount-wrapper" spa-widget="scroll">
+	<div class="sml-wrapper">
+		<div class="re-lo">
+			<div class="ac-login" action-type="tap.login">登录</div>
+			<div class="register" action-type="tap.register">注册</div>
+		</div>
+		<div class="list-wrapper">
+			<ul class="re-list">
+				<li>
+					<div class="list-left">
+						<div class="re-pic">
+							<img src="/createT/images/menul.png">
+						</div>
+						<span>用户信息</span>
+					</div>
+					<div class="list-right">
+						<b>查看用户信息</b>
+						<div class="yo-ico">&#xe611;</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-left">
+						<div class="re-pic">
+							<img src="/createT/images/menul.png">
+						</div>
+						<span>我的账户</span>
+					</div>
+					<div class="list-right">
+						<b>查看账户信息</b>
+						<div class="yo-ico">&#xe611;</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-left">
+						<div class="re-pic">
+							<img src="/createT/images/menul.png">
+						</div>
+						<span>我的原创</span>
+					</div>
+					<div class="list-right">
+						<b>查看所有原创信息</b>
+						<div class="yo-ico">&#xe611;</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-left">
+						<div class="re-pic">
+							<img src="/createT/images/menul.png">
+						</div>
+						<span>我的订单</span>
+					</div>
+					<div class="list-right">
+						<b>查看所有订单信息</b>
+						<div class="yo-ico">&#xe611;</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-left">
+						<div class="re-pic">
+							<img src="/createT/images/menuy.png">
+						</div>
+						<span>我的优惠券</span>
+					</div>
+					<div class="list-right">
+						<b>查看所有优惠券信息</b>
+						<div class="yo-ico">&#xe611;</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-left">
+						<div class="re-pic">
+							<img src="/createT/images/menug.png">
+						</div>
+						<span>关于创T</span>
+					</div>
+					<div class="list-right">
+						<b></b>
+						<div class="yo-ico">&#xe611;</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-left">
+						<div class="re-pic">
+							<img src="/createT/images/menuq.png">
+						</div>
+						<span>清除缓存</span>
+					</div>
+					<div class="list-right">
+						<b></b>
+						<div class="yo-ico">&#xe611;</div>
+					</div>
+				</li>
+			</ul>
+			<div class="ac-back">退出登录</div>
+		</div>
+	</div>
+</div>

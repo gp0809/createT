@@ -1,0 +1,14 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/createT/images/true1.png",
+      "title": "设计中心"
+    },
+    {
+      "imgsrc": "/createT/images/false1.png"
+    }
+  ]
+}

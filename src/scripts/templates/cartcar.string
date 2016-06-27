@@ -1,0 +1,22 @@
+
+<div class="m-cartcar">
+	<div class="design-head">
+	        <ul>
+	          <li class="yo-ico" action-type="exit">
+	            &#xe611;
+	          </li>
+	          <li>购物车</li>
+	          <li action-type="tap.share">…</li>
+	        </ul>
+	</div>
+	<div class="cartcar-wrap">
+	  <div class="cart-pay">
+	  	<div class="wait active">等待付款</div>
+	  	<div class="ever">已支付</div>
+	  </div>
+	  <div class="cart-main">
+	  	<div class="main-top">已经到最后</div>
+	  	<div class="main-tips">购物车空空，下拉刷新</div>
+	  </div>
+	</div>
+</div>

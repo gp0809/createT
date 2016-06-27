@@ -1,0 +1,44 @@
+
+<div class="m-mydesign">
+	<div class="design-head">
+	        <ul>
+	          <li class="yo-ico" action-type="exit">
+	            &#xe611;
+	          </li>
+	          <li ms-visible="isShowLoading">正在加载</li>
+	          <li ms-text="value.title" ms-repeat-value="livelist" ms-visible="!isShowLoading"></li>
+	          <li action-type="tap.share">…</li>
+	        </ul>
+	</div>
+	<div class="myDesign-wrap" spa-widget="scroll" data-scroll-id="homeHotScroll">
+	  <div>
+		<div class="head">
+	        <img src="/createT/images/arrow.png" width="40" height="40"/>
+	        <span>下拉刷新...</span>
+	    </div>
+		<ul class="myDesign-list">
+			<li ms-repeat-value="livelist">
+				<div class="md-title" ms-text="value.TITLE">原创</div>
+				<div class="md-pic">
+					<img ms-src="value.URL">
+				</div>
+				<div class="md-price">
+					<div class="all-prc">
+						<span class="prc">￥</span>
+						<span class="prc" ms-text="value.PRICE">￥68</span>
+					</div>
+					<span ms-text="value.USERNAME">18*3</span>
+				</div>
+				<div class="md-info" ms-text="value.NOTE">随性创意</div>			
+			</li>
+		</ul>
+		<div class="foot">
+	        <img src="/createT/images/arrow.png" width="40" height="40"/>
+	        <span>上拉加载更多...</span>
+	    </div>
+	  </div>
+	</div>
+	<div class="yo-loading" ms-visible="isShowLoading">
+      <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+  	</div>
+</div>

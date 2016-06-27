@@ -1,0 +1,89 @@
+{
+   "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+        {
+            "URL": "http://www.chuangtee.com/wap/category/fashion.jpg",
+            "NAME": "关于潮流",
+            "ID": 1       
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/love.jpg",
+            "NAME": "关于爱情",
+            "ID": 1        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/music.jpg",
+            "NAME": "关于音乐",
+            "ID": 1        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/sport.jpg",
+            "NAME": "关于运动",
+            "ID": 1        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/school.jpg",
+            "NAME": "关于校园",
+            "ID": 1        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/pet.jpg",
+            "NAME": "关于萌宠",
+            "ID": 1        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/art.jpg",
+            "NAME": "关于文艺",
+            "ID": 1        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/holiday.jpg",
+            "NAME": "关于节日",
+            "ID": 1        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/env.jpg",
+            "NAME": "关于环保",
+            "ID": 1        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/health.jpg",
+            "NAME": "关于健康",
+            "ID": 1
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/cartoon.jpg",
+            "NAME": "关于卡通",
+            "ID": 1
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/sweet.jpg",
+            "NAME": "关于甜美",
+            "ID": 1
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/business.jpg",
+            "NAME": "关于商务",
+            "ID": 1
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/youth.jpg",
+            "NAME": "关于青春",
+            "ID": 1
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/letter.jpg",
+            "NAME": "关于文字",
+            "ID": 1
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/life.jpg",
+            "NAME": "关于人生",
+            "ID":1
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/family.jpg",
+            "NAME": "关于亲情",
+            "ID": 1
+        },
+        {
+            "URL": "http://www.chuangtee.com/wap/category/friend.jpg",
+            "NAME": "关于友情",
+            "ID": 1
+        }
+    ]
+}

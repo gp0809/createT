@@ -1,0 +1,44 @@
+<div class="m-itemdetail">
+	<div class="detail-head">
+        <ul>
+          <li class="yo-ico" action-type="back">
+            &#xe611;
+          </li>
+          <li ms-visible="!isShowLoading">{{bgtitle}}</li>
+          <li ms-visible="isShowLoading">正在加载</li>
+          <li action-type="tap.share">…</li>
+        </ul>
+	</div>
+  <div class="m-slide" spa-widget="scroll" data-scroll-id="homeHotScroll">
+  <div>
+    <div class="head">
+          <img src="/createT/images/arrow.png" width="40" height="40"/>
+          <span>下拉刷新...</span>
+    </div>
+  	<section>
+  	    <div class="m-logo">
+          <img src="http://www.chuangtee.com/wap/category/fashion.jpg">
+        </div>
+        <div class="m-itemcont">
+          <ul>
+            <li ms-repeat-value="detaillist">
+              <div class="item-title" ms-text="value.TITLE"></div>
+              <div class="item-pic">
+                <img ms-src="value.URL">
+                <div class="price-font" ms-text="value.PRICE"></div>
+              </div>
+              <div class="item-font" ms-text="value.NOTE"></div>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <div class="foot">
+          <img src="/createT/images/arrow.png" width="40" height="40"/>
+          <span>上拉加载更多...</span>
+    </div>
+  </div>
+  </div>
+  <div class="yo-loading" ms-visible="isShowLoading">
+      <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+  </div>
+</div>

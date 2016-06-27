@@ -1,0 +1,147 @@
+@import "../../lib/element/yo-loading";
+.yo-loading{background:#ECEEF0;
+  position:absolute;top:44px;
+}
+.m-mydesign{
+   .design-head{
+      position:absolute;left:0;top:0;z-index:1;
+        background:#000;
+        height:.44rem;
+        width:100%;
+        ul{
+          width:100%;
+          height:.44rem;
+          @include flexbox();
+          li:first-child{
+            width:.44rem;
+            text-align: center;
+            line-height:.44rem;
+            color:#fff;
+            font-size: 18px;
+          }
+          li:nth-child(2){
+            @include flex(1);
+            font-size:.18rem;
+            line-height:.44rem;
+            text-align:center;
+            color:#fff;
+          }
+          li:nth-child(3){
+            @include flex(1);
+            font-size:.18rem;
+            line-height:.44rem;
+            text-align:center;
+            color:#fff;
+          }
+          li:last-child{
+            width:.44rem;
+            line-height:.35rem;
+            text-align:center;
+            font-size:.3rem;
+            color: #fff;
+          }
+        }
+
+    }
+   .myDesign-wrap{
+    width:100%;
+    position:absolute;left:0;top:44px;bottom:0;
+    // iscroll pull to refresh
+            .head {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+            }
+            .head img {
+                display: inline-block;
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .15rem;
+                width: .15rem;
+            }
+            .up {
+                transform: rotate(360deg) !important;
+                -webkit-transform: rotate(360deg) !important;
+            }
+            .foot {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+            }
+            .foot img {
+                display: inline-block;
+                /*transform: rotate(0deg);*/
+                /*-webkit-transform: rotate(0deg);*/
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .15rem;
+                width: .15rem;
+            }
+            .down {
+                transform: rotate(180deg) !important;
+                -webkit-transform: rotate(180deg) !important;
+            }
+    .myDesign-list{
+      width:100%;
+      @include flexbox();
+      @include flex-wrap(wrap);
+      @include justify-content(space-around);
+      li{
+        background:#fff;
+        width:32%;
+        margin-top: .08rem;
+        @include border(1px,#eee);
+        box-shadow:1px 1px 2px #ccc;
+        border-radius:5px;
+        .md-title{
+          width:100%;
+          height:.29rem;
+          line-height: .29rem;
+          text-align: center;
+          font-size: 18px;
+          color:#ea4000;
+        }
+        .md-pic{
+          text-align:center;
+          img{
+            width:.96rem;
+            height:auto;
+          }
+          @include border(1px,#eee);
+        }
+        .md-price{
+          @include box-sizing(border-box);
+          padding:0 .08rem;
+          width:100%;
+          height:.3rem;
+          @include flexbox();
+          @include justify-content(space-between);
+          @include align-items(center);
+          font-size: 14px;
+          .all-prc{
+            width:.48rem;
+            @include flexbox();
+          }
+          .prc{
+            color:red;
+            font-size:14px;
+            font-family: "微软雅黑";
+          }
+        }
+        .md-info{
+          font-size:14px;
+          font-family: "微软雅黑";
+          height:.2rem;
+          line-height:.2rem;
+          overflow:hidden;
+          text-overflow:ellipsis;
+          white-space:nowrap;
+          width:.96rem;
+          padding:0 .06rem;
+        }
+      }
+    }
+   }
+}

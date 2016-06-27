@@ -1,0 +1,173 @@
+.m-index{
+  font-size: "微软雅黑";
+  width:100%;
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  .l-container{
+    @include flex(1);
+    width:100%;
+    header{
+        position:absolute;left:0;top:0;z-index:1;
+        background:#EA4000;
+        height:.44rem;
+        width:100%;
+        ul{
+          width:100%;
+          height:.44rem;
+          @include flexbox();
+          li:first-child{
+            width:.44rem;
+            text-align: center;
+            line-height:.44rem;
+            img{
+              width:.38rem;
+            }
+          }
+          li:nth-child(2){
+            @include flex(1);
+            font-size:.18rem;
+            line-height:.44rem;
+            text-align:center;
+            color:#fff;
+          }
+          li:last-child{
+            width:.44rem;
+            line-height:.35rem;
+            text-align:center;
+            font-size:.3rem;
+            color: #fff;
+          }
+        }
+
+      }
+    .acount-wrapper{
+      width:100%;
+      position:absolute;left:0;top:44px;
+      bottom:44px;
+      .re-lo{
+      background:#fff;
+      width:100%;
+      height:1.08rem;
+      color:#ea4000;
+      @include flexbox();
+      @include justify-content(space-around);
+      @include align-items(center);
+      .ac-login{
+        width:0.78rem;
+        height:0.38rem;
+        line-height: .38rem;
+        text-align: center;
+        border:1px solid #ea4000;
+        border-radius:5px;
+        color:#ea4000;
+      }
+      .register{
+        width:0.78rem;
+        height:0.38rem;
+        line-height: .38rem;
+        text-align: center;
+        background:#ea4000;
+        color:#fff;
+        @include border-radius(5px);
+      }
+    }
+    .list-wrapper{
+      width:100%;
+      background:#fff;
+      .re-list{
+        width:100%;
+        li{
+          width:100%;
+          height:.56rem;
+          @include border(0 0 1px 0,#666);
+          @include flexbox();
+          @include justify-content(space-between);
+          @include align-items(center);
+          padding:0 .06rem;
+          .list-left{
+            @include flexbox();
+            @include justify-content(flex-start);
+            @include align-items(center);
+            width:1.35rem;
+            height:.48rem;
+            .re-pic{
+              width:.32rem;
+              height:.32rem;
+              img{
+                width:.32rem;
+              }
+            }
+            span{
+                font-size:14px;
+                font-family:"微软雅黑";
+                padding:0 .05rem;
+            }
+          }
+          .list-right{
+            @include box-sizing(border-box);
+            padding:0 .12rem;
+            @include flexbox();
+            @include justify-content(flex-end);
+            @include align-items(center); 
+            width:1.63rem;
+            height:.48rem;
+            b{
+              font-size:14px;
+              font-weight:100;
+              font-family:'微软雅黑';
+            }
+            .yo-ico{
+              font-size:.12rem;
+            }
+          }
+        }
+      }
+      .ac-back{
+        display:none;
+        width:100%;
+        height:.4rem;
+        line-height:.4rem;
+        text-align:center;
+        font-size: 18px;
+        background:#ea4000;
+        color:#fff;
+      }
+    }
+    }
+    
+  }
+  footer{
+    width:100%;
+    height:.44rem;
+    background:#fff;
+    position:absolute;left:0;bottom:0;
+    @include border(1px 0 0 0,#666);
+    ul{
+      height:.44rem;
+      width:100%;
+      @include flexbox();
+      li{
+        @include flex(1);
+        text-align: center;
+        color:#777;
+        i,b{display:block;}
+        i{
+          padding:.05rem;
+          @include box-sizing(border-box);
+          line-height:.18rem;
+          font-size:.18rem;
+        }
+        b{
+          line-height:.1rem;
+          font-weight:100;
+          font-size:13px;
+          font-family:"微软雅黑";
+        }
+      }
+      .active{
+          color:#EA4000;
+        }
+    }
+  }
+}

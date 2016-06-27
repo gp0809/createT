@@ -1,0 +1,71 @@
+{
+    "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+        {
+            "ID": "C16417053203345645",
+            "TITLE": "",
+            "USERNAME": "ya*m",
+            "URL": "http://www.chuangtee.com/design/16417/C16417053203345645/backbk.png",
+            "PRICE": "68.00",
+            "NOTE": ""
+        },
+        {
+            "ID": "C16417039989110259",
+            "TITLE": "没有",
+            "USERNAME": "ya*m",
+            "URL": "http://www.chuangtee.com/design/16417/C16417039989110259/frontbk.png",
+            "PRICE": "68.00",
+            "NOTE": ""
+        },
+        {
+            "ID": "C16417453796133483",
+            "TITLE": "校草",
+            "USERNAME": "18*1",
+            "URL": "http://www.chuangtee.com/design/16417/C16417453796133483/frontbk.png",
+            "PRICE": "88.00",
+            "NOTE": "我也不知"
+        },
+        {
+            "ID": "C16416198775378068",
+            "TITLE": "毕业季班服",
+            "USERNAME": "15*1",
+            "URL": "http://www.chuangtee.com/design/16416/C16416198775378068/frontbk.png",
+            "PRICE": "68.00",
+            "NOTE": ""
+        },
+        {
+            "ID": "C16416087476006242",
+            "TITLE": "孑然一身",
+            "USERNAME": "18*1",
+            "URL": "http://www.chuangtee.com/design/16416/C16416087476006242/frontbk.png",
+            "PRICE": "98.00",
+            "NOTE": "而且没有灵感。"
+        },
+        {
+            "ID": "C16416080048873823",
+            "TITLE": "萌萌女生小衣服",
+            "USERNAME": "18*1",
+            "URL": "http://www.chuangtee.com/design/16416/C16416080048873823/frontbk.png",
+            "PRICE": "70.80",
+            "NOTE": "那是一件萌萌哒衣服！"
+        },
+        {
+            "ID": "C16416073633058961",
+            "TITLE": "GG小衣服",
+            "USERNAME": "18*1",
+            "URL": "http://www.chuangtee.com/design/16416/C16416073633058961/frontbk.png",
+            "PRICE": "60.00",
+            "NOTE": "这件衣服绝对值得你们买！"
+        },
+        {
+            "ID": "C16412568094797267",
+            "TITLE": "茶会装",
+            "USERNAME": "18*6",
+            "URL": "http://www.chuangtee.com/design/16412/C16412568094797267/frontbk.png",
+            "PRICE": "98.00",
+            "NOTE": ""
+        }
+    ]
+}

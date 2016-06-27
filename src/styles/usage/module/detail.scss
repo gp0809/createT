@@ -1,0 +1,133 @@
+@import "../../lib/element/yo-loading";
+.m-detail{
+  font-family: "微软雅黑";
+  .detail-head{
+    position:absolute;left:0;top:0;z-index:1;
+        background:#000;
+        height:.44rem;
+        width:100%;
+        ul{
+          width:100%;
+          height:.44rem;
+          @include flexbox();
+          li:first-child{
+            width:.44rem;
+            text-align: center;
+            line-height:.44rem;
+            font-size: 18px;
+            color:#fff;
+          }
+          li:nth-child(2){
+            @include flex(1);
+            font-size:.18rem;
+            line-height:.44rem;
+            text-align:center;
+            color:#fff;
+            font-family: "微软雅黑";
+          }
+          li:nth-child(3){
+            @include flex(1);
+            font-size:.18rem;
+            line-height:.44rem;
+            text-align:center;
+            color:#fff;
+            font-family: "微软雅黑";
+          }
+          li:last-child{
+            width:.44rem;
+            line-height:.35rem;
+            text-align:center;
+            font-size:.3rem;
+            color: #fff;
+          }
+        }
+  }
+  .m-slide{
+    position:absolute;left:0;top:.44rem;bottom:.44rem;
+    section {
+      width:100%;
+      .m-logo{
+        width:100%;
+        height:1.6rem;
+        @include flexbox();
+        @include justify-content(flex-end);
+        @include align-items(center);
+        background:#fff;
+        .m-logo-pic{
+          margin-right: 0.08rem;
+          img{
+            width:1.6rem;
+          }
+        }
+        .prd-price{
+            width: 48px;
+            height: 0;
+            line-height: 0;
+            text-align: center;
+            background: #ea4000;
+            color: #ffffff;
+            border-left: 24px solid #ffffff;
+            border-bottom: 24px solid #ea4000;
+            border-top: 24px solid #ea4000;
+        }
+      }
+      .m-title{
+          background:#DEDEDE;
+          width:100%;
+          height:.25rem;
+          padding:0 .08rem;
+          font-size: 18px;
+          font-family: "微软雅黑";
+          border-top:5px solid #eee;
+          border-bottom:5px solid #eee;
+      }
+      .prd-pic{
+        width:100%;
+        background:#fff;
+        text-align: center;
+        img{
+          width:2.56rem;
+        }
+      }
+      .info-pic{
+        width:100%;
+        img{
+          width:100%;
+        }
+      }
+    }
+  }
+  footer{
+    position:absolute;left:0;
+    bottom:0;
+    width:100%;
+    height:.44rem;
+    background:#fff;
+    line-height: .44rem;
+    text-align: center;
+    @include flexbox();
+    .continue{
+      width:30%;
+      height:.44rem;
+      color:#ea4000;
+      font-size: 16px;
+      font-family: "微软雅黑";
+    }
+    .addtocart{
+      width:50%;
+      height:.44rem;
+      background:#ea4000;
+      color:#fff;
+      font-size: 16px;
+      font-family: "微软雅黑";
+    }
+    .cart-cont{
+      width:20%;
+      height:.44rem;
+      background:#EA6C00;
+      color:#fff;
+      font-size: 12px;
+      font-family: "微软雅黑";
+    }
+  }
+}

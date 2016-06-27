@@ -1,0 +1,71 @@
+<div class="m-design">
+	<div class="design-head">
+	        <ul>
+	          <li class="yo-ico" action-type="exit">
+	            &#xe611;
+	          </li>
+	          <li ms-visible="isShowLoading">正在加载</li>
+	          <li ms-text="value.title" ms-repeat-value="livelist" ms-visible="!isShowLoading"></li>
+	          <li action-type="tap.share">…</li>
+	        </ul>
+	</div>
+	<div class=de-wrapper ms-visible="!isShowLoading">
+		<div class="design-cont">
+			<div class="design-opt">
+				<div class="de-true active">正面</div>
+				<div class="de-false">背面</div>
+			</div>
+			<div class="de-pic">
+				<img class="pic-true" src="/createT/images/true1.png">
+				<img class="pic-false" src="/createT/images/false1.png">
+			</div>
+			<div class="de-option">
+				<ul>
+					<li class="chc">更换颜色</li>
+					<li>更换产品</li>
+					<li>增加图片</li>
+					<li>增加文字</li>
+					<li>增加留言</li>
+				</ul>
+			</div>
+		</div>
+		<div class="de-footer">
+			<div class="de-adcart">加入购物车</div>
+			<div class="de-save">保存设计</div>
+		</div>
+	</div>
+	<div class="yo-loading" ms-visible="isShowLoading">
+      <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+  	</div>
+  	<div class="change-wrap">
+	  	<div class="changeColor">
+	  		<div class="color-wrap">
+	  			<div class="color-title">
+	  				<div class="yo-ico mock-back">&#xe611;</div>
+	  				<div class="color-font">选择颜色</div>
+	  				<div class="color-space"></div>
+	  			</div>
+	  			<div class="color-items">
+	  				<ul>
+	  					<li>雪白色</li>
+	  					<li>浅灰色</li>
+	  					<li>暗淡灰色</li>
+	  					<li>黑色</li>
+	  					<li>浅秋麒麟色</li>
+	  					<li>纯黄色</li>
+	  					<li>金色</li>
+	  					<li>橙色</li>
+	  					<li>浅粉红色</li>
+	  					<li>深粉红色</li>
+	  					<li>瑰红色</li>
+	  					<li>纯红色</li>
+	  					<li>浅蓝色</li>
+	  					<li>天蓝色</li>
+	  					<li>深天蓝色</li>
+	  					<li>中蓝色</li>
+	  				</ul>
+	  			</div>
+	  		</div>
+	  	</div>
+  	</div>
+</div>
