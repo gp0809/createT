@@ -20,14 +20,14 @@ SPA.defineView('myacount', {
         {
           $('.re-lo').html(localStorage.getItem("myaccount"));
           $('.ac-back').show();
+          /*if($('.re-lo').html()==localStorage.getItem("myaccount"))
+          {
+            console.log($('.re-lo').html())
+            clearInterval(timer);
+          }*/
         }
       },50)
      
-      if($('.re-lo').html()==localStorage.getItem("myaccount"))
-      {
-        clearInterval(timer);
-      }
-        
       $('.ac-back').click(function(){
         if(localStorage.getItem("myaccount"))
         {

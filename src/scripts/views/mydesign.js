@@ -33,7 +33,7 @@ SPA.defineView('mydesign', {
         _this.vm = _this.getVM();
           $.ajax({
             // url: '/createT/mock/livelist.json',
-            url: '/api/getDesignlist.php',
+            url: '/createT/mock/mydesign.json',
             type: 'get',
             data:{
               rtype: 'origin'
@@ -81,7 +81,7 @@ SPA.defineView('mydesign', {
               //TODO ajax下拉刷新数据
 
                $.ajax({
-                url: '/api/getDesignlist.php',
+                url: '/createT/mock/mydesign-refresh.json',
                 data: {
                   rtype: 'refresh',
                 },
@@ -111,7 +111,7 @@ SPA.defineView('mydesign', {
               // ajax上拉加载数据
 
               $.ajax({
-                url: '/api/getDesignlist.php',
+                url: '/createT/mock/mydesign-move.json',
                 data: {
                   rtype: 'more',
                 },
@@ -130,7 +130,7 @@ SPA.defineView('mydesign', {
               });
 
                $.ajax({
-                url: '/api/getDesignlist.php',
+                url: '/createT/mock/mydesign-mv.json',
                 data: {
                   rtype: 'mv',
                 },

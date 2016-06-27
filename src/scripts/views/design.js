@@ -14,7 +14,7 @@ SPA.defineView('design', {
       // var myScroll = new IScroll('#home-scroll');
       var vm = this.getVM();
       $.ajax({
-        url: '/api/getLiveDesign.php',
+        url: '/createT/mock/design.json',
         data: {
           rtype: "design"
         },

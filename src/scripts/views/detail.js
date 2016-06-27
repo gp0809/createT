@@ -33,7 +33,7 @@ SPA.defineView('detail', {
       console.log(d);
 
       $.ajax({
-        url: '/api/getLiveDetail.php',
+        url: '/createT/mock/detail.json',
         data: {
           id: d.id
         },

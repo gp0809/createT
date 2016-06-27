@@ -21,7 +21,7 @@ SPA.defineView('home', {
        var vm = _this.getVM();
           $.ajax({
             // url: '/createT/mock/livelist.json',
-            url: '/api/getLivelist.php',
+            url: '/createT/mock/livelist.json',
             type: 'get',
             data:{
               rtype: 'refresh'
@@ -74,7 +74,7 @@ SPA.defineView('home', {
         that.vm = this.getVM();
           $.ajax({
             // url: '/createT/mock/livelist.json',
-            url: '/api/getLiveHome.php',
+            url: '/createT/mock/homelist.json',
             type: 'get',
             data:{
               rtype: 'refresh'
@@ -86,6 +86,7 @@ SPA.defineView('home', {
         });
     },
     show: function () {
+     $('.spinner').hide();
      $('.jingxuan').eq(0).show(); 
      var _this=this;
      this.ajax();
@@ -106,18 +107,18 @@ SPA.defineView('home', {
           var $list = $('.m-search-menu.fixed li b');
           $list.eq(index).addClass("active").siblings().parent().siblings().children().removeClass("active");
          switch(index){
-          case 0: this.jsonName="getLivelist";
+          case 0: this.jsonName="livelist";
             break;
-          case 1:this.jsonName="getLivelist2";
+          case 1:this.jsonName="livelist2";
             break;
-          case 2:this.jsonName="getLivelist3";
+          case 2:this.jsonName="livelist3";
             break;
-          case 3:this.jsonName="getLivelist4";
+          case 3:this.jsonName="livelist4";
             break;
          }
           _this.vm = _this.getVM();
           $.ajax({
-            url: '/api/'+this.jsonName+'.php',
+            url: '/createT/mock/'+this.jsonName+'.json',
             type: 'get',
             data:{
               rtype: 'refresh'

@@ -41,7 +41,7 @@ SPA.defineView('itemdetail', {
       console.log(d);
 
       $.ajax({
-        url: '/api/getLiveItemDetail.php',
+        url: '/createT/mock/itemdetail.json',
         data: {
           id: d.id
         },
@@ -96,7 +96,7 @@ SPA.defineView('itemdetail', {
               //TODO ajax下拉刷新数据
 
                $.ajax({
-                url: '/api/getLiveItemDetail.php',
+                url: '/createT/mock/itemdetail.json',
                 data: {
                   rtype: 'refresh',
                 },
@@ -126,7 +126,7 @@ SPA.defineView('itemdetail', {
               // ajax上拉加载数据
 
               $.ajax({
-                url: '/api/getLiveItemDetail.php',
+                url: '/createT/mock/itemdetail.json',
                 data: {
                   rtype: 'more',
                 },
